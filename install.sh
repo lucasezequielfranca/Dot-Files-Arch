@@ -2,7 +2,7 @@
 
 sudo pacman -Syu
 
-sudo pacman -S git man tldr kitty rofi dunst fastfetch awesome-terminal-fonts python-pywal
+sudo pacman -S git man tldr kitty rofi dunst fastfetch awesome-terminal-fonts python-pywal firefox
 
 git config --global user.name "Lucas Franca"
 git config --global user.email 127765876+lucasezequielfranca@users.noreply.github.com
@@ -19,13 +19,15 @@ cd yay
 makepkg -si
 cd ~
 
-yay -S google-chrome
 yay -S bumblebee-status
+yay -S typora
 
 
+
+
+
+sudo cp -r .config/ ~/
+sudo cp .bashrc ~/
 
 wal -i ~/.config/wallpapers/wallpaper.jpg
 
-
-sudo cp -r .config/ ~/.config/
-sudo cp .bashrc ~/.bashrc
