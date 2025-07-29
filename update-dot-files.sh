@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo git add .
+git add .
 
-sudo git commit -m "Auto backup via script dot files"
-sudo git push
+git commit -m "Auto backup via script dot files"
+git push
