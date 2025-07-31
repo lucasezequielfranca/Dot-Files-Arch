@@ -244,7 +244,7 @@ bar {
     status_padding 5
     font pango:FontAwesome 10, Fira Code 10
     status_command /usr/bin/bumblebee-status \
-    -m pipewire cpu memory time \
+    -m pipewire battery cpu memory time \
     -p time.format="%H:%M" \
     -t gruvbox-powerline
 }
